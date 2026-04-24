@@ -290,9 +290,9 @@ with col_gauge:
             "bar":  {"color": "#00e599"},
             "bgcolor": "#161616",
             "steps": [
-                {"range": [0,  20], "color": "#ff6b9d33"},
-                {"range": [20, 50], "color": "#ffd16633"},
-                {"range": [50,100], "color": "#00e59933"},
+                {"range": [0,  20], "color": "rgba(255,107,157,0.2)"},
+                {"range": [20, 50], "color": "rgba(255,209,102,0.2)"},
+                {"range": [50,100], "color": "rgba(0,229,153,0.2)"},
             ],
             "threshold": {"line":{"color":"#4cc9f0","width":3}, "thickness":0.75, "value":20}
         },
